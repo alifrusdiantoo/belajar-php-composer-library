@@ -1,0 +1,19 @@
+{
+  "name": "alifrusdianto/belajar-php-composer-hello",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Alifrusdianto\\Belajar\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alif Rusdianto",
+      "email": "alifrusdianto30@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
